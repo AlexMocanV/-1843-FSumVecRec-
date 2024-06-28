@@ -1,0 +1,7 @@
+int suma(int a[],int n,int i,int j)
+{
+    if(n==0)return 0;
+    if(n>=i&&n<=j);
+    else return a[n]+suma(a,n-1,i,j);
+    return suma(a,n-1,i,j);
+}
